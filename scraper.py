@@ -67,7 +67,7 @@ class IFoodie(Food):
  
             address = card.find(  # 餐廳地址
                 "div", {"class": "jsx-2133253768 address-row"}).getText()
-            html="https://maps.googleapis.com/maps/api/distancematrix/xml?origins="+str(num_data[0])+","+str(+num_data[1])+"&destinations="+urllib.parse.quote(address)+"&key=AIzaSyCDrKaJjU6vbbvAl8sZL0zubzR-QCRuFZY"
+            html="https://maps.googleapis.com/maps/api/distancematrix/xml?origins="+str(num_data[0])+","+str(+num_data[1])+"&destinations="+urllib.parse.quote(address)+"&key=<YOUR_GOOGLE_MAP_API>"
             
             soup2=BeautifulSoup(requests.get(html).text, "html.parser")
             #tmp=soup2.find("distance")
