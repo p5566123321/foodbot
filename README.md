@@ -1,7 +1,8 @@
 # Restaurant Recommend Linebot
 
-The Linebot provides fast and convenient way to find restaurant based on Linebot.
-This program using Django as API framwork , and web crawler to do data collection.
+The Linebot provides a fast and convenient way to find restaurants using Linebot. 
+This program uses Django as the API framework and employs a web crawler for data collection. 
+The main resources are powered by ifoodie.tw and google.com.
 
 # Usage
 
